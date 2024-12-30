@@ -1,0 +1,11 @@
+list {close enough \\_(!!)_/}
+"Hey! This is the secondary default test provided in the `test1.lithp` testing source file."
+(list a b c def ghi
+ (list \"(({))}asdas232    sadhaskljh   68 6 asdas {{{  }   )6\")
+
+(list 123 { +}++ --- 009098098098     )
+(list (111)) (678969876) (sadfhjasd safdkhaskldf  (dksfhklsdjf (hlskdjfh) (a (adfhsdkfh))))
+    "   divline  "
+(** (* 3 (+ 1 (/ (+ 12 (- 5 3)) {(unpack (* (list 2) 3))} 2 2 2   ))) (/ 1 2))
+(list (unpack (list 1 2 3)) 4) {Unpack doesn't work yet.}
+    )
