@@ -39,7 +39,6 @@ def tokenize(src: str) -> tuple[list[list | str], int]:
             w = ""
         return w
 
-
     for c in src:
         n_chars += 1
         if skip_chars > 0:
@@ -85,7 +84,7 @@ def tokenize(src: str) -> tuple[list[list | str], int]:
 
             if word_end:
                 w = end_word(w)
-                
+
             if blk_begin:
                 sub_tks, skip_chars = tokenize(src[n_chars:])
                 tks.append(sub_tks)
@@ -94,6 +93,7 @@ def tokenize(src: str) -> tuple[list[list | str], int]:
     w = end_word(w)
 
     return tks, n_chars
+
 
 
 def evaluate(tks: list[list | str]) -> list | str | float | None:
@@ -157,10 +157,6 @@ def evaluate(tks: list[list | str]) -> list | str | float | None:
                     res = args
 
     return res
-
-
-
-
 
 
 
